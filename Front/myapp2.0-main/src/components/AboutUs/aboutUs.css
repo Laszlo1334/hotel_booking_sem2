@@ -1,0 +1,30 @@
+.aboutus{
+    display: flex;
+    flex-direction: column;
+  
+    width: 950px;
+    height: 100%;
+  
+    border-radius: 30px;
+}
+.aboutus-type-wrapper{
+    display: flex;
+    flex: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus-flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  
+    padding: 50px 100px;
+}
+.aboutus-text{
+    margin-top: 12px;
+    padding: 15px 100px;
+    border-radius: 30px;
+}
